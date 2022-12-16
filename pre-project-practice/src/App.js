@@ -3,20 +3,18 @@ import './App.css';
 import styled from 'styled-components';
 
 function App() {
-  const customButton = styled.button`
-    width: 10px;
-    height: 10px;
-    background-color: aliceblue;
-  `
+  const CustomButton = styled.button`
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+  `;
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is a practice project!
-        </p>
-        <customButton>click me</customButton>
+        <p>This is a practice project!</p>
+        <CustomButton>Click me!</CustomButton>
       </header>
     </div>
   );
